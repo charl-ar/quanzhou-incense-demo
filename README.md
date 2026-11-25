@@ -2,7 +2,7 @@
 
 **一缕香，见一座城。** 面向创意汇报的泉州文化香雕文创展馆 Demo。
 
-项目目录：`D:\quanzhou-incense-demo`。独立新建，未改动原有香见项目。React + TypeScript + Vite + Tailwind CSS，纯静态前端，无后端、数据库、密钥或运行时付费 API。本项目尚未发布互联网。
+项目目录：`D:\quanzhou-incense-demo`。独立新建，未改动原有香见项目。React + TypeScript + Vite + Tailwind CSS，纯静态前端，无后端、数据库、密钥或运行时付费 API。已按项目所有者确认发布到 GitHub Pages。在线地址：[香见泉州](https://charl-ar.github.io/quanzhou-incense-demo/)；源码仓库：[charl-ar/quanzhou-incense-demo](https://github.com/charl-ar/quanzhou-incense-demo)。
 
 ## 启动项目
 
@@ -78,7 +78,7 @@ npm run preview
 
 ## GitHub Pages 自动部署
 
-以下为你确认发布后的手动操作；本次未创建仓库或上传内容。
+当前已部署至 [GitHub Pages](https://charl-ar.github.io/quanzhou-incense-demo/)，仓库为 [charl-ar/quanzhou-incense-demo](https://github.com/charl-ar/quanzhou-incense-demo)。之后在本项目提交修改并推送 main，GitHub Actions 会自动更新网站。以下保留从零部署的操作说明。
 
 1. 在 GitHub 手动创建仓库，例如 `quanzhou-incense-demo`，确认可见性和素材授权。免费账户常使用公开仓库，私有仓库 Pages 能力取决于账户方案。
 2. 在项目目录打开 PowerShell，执行（替换 `YOUR_USERNAME`）：
@@ -149,3 +149,4 @@ Remove-Item Env:PLAYWRIGHT_CHANNEL
 香艺师工艺访谈、配方与香味、真实尺寸、模具分型与强度验证、实际制作过程照片、实体微距细节、文化专业校核和高分辨率单品图。当前 AI 图像含艺术化重组（尤其钟楼顶盖），不能作为建筑复原或生产图纸。没有实体产品测试结果，也没有登录、支付、购物车。
 
 部署参考：[Vite 官方静态部署指南](https://vite.dev/guide/static-deploy.html)、[GitHub Pages 自定义工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。工作流已使用 upload-pages-artifact@v4。
+

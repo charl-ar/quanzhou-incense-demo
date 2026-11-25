@@ -45,8 +45,9 @@ node scripts/check-deployment.mjs
 
 ## 验证边界
 
-- 未创建远程仓库，未实际运行 GitHub Actions 云端作业，未上传或发布互联网。工作流和子路径已在本地检查，云端仍取决于账户权限与平台状态。
+- 已经项目所有者明确确认，创建公开仓库 charl-ar/quanzhou-incense-demo 并完成 GitHub Pages 云端部署。首次工作流 45579748103 成功，正式网址为 https://charl-ar.github.io/quanzhou-incense-demo/ 。线上 HTTP 200；1440px 与 390px 下共 20 次页面访问及刷新成功，图片加载、筛选、工坊交互通过，0 页面异常。线上验证 JSON 为 artifacts/live-deployment-check.json，截图为 artifacts/screenshots/live-*.png。
 - 手机为 Edge 设备模拟，未使用实体 iPhone/Android，也未验证其他设备到电脑的路由器和防火墙链路。
 - 工坊是本地预设概念图、滤镜和文本规则组合，不是实时 AI 生图。162 种参数组合并不等于 162 张独立图像。
 - 局部细节来自概念图放大；四款初版概念图来自 512px 单元，后续可换高清单品图。钟楼等建筑细部存在艺术化偏差，页面已标注。
 - 尚无实体、真实制作过程照片、香味配方、尺寸、模具、燃烧及强度试验结果；均需后续打样与专业文化校核。
+
